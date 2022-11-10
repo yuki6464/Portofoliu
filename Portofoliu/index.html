@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliul meu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cfa96f3a43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section>
+  <header id="header">
+    <div class="container">
+    <nav>
+        <img class="logo" src="images/logo.webp" alt="Logo Image">
+       
+        <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+     
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+      <h1>Hello, my name is Alex and I'm passionate about design and Front-End Development.</h1>
+    </div>
+    </div>
+    </div>
+  </header>  
+  </section>
+
+
+<!-- About section -->
+  <section>
+    <div class="about">
+            <img src ="images/front-end-development.gif" class="about-image" >
+            <div class="about-me">
+            <h1>About me</h1>
+            <p>Hello, my name is Alex and I'm aiming to become a Front-End Developer by investing in my passion for Web Development and by believing that every problem has a solution. I'm passionate about Web Design and all things related to Web Development, also I strongly believe that with passion and work you can transform your goals and ideas into reality.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>HTML 5</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>Resolving challenges from frontendmentor.io</li>
+                <li>Building apps using HTML, CSS and Java Script</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>2017 Bachelor Degree in Public Adiministration from "Babes-Bolyai" Univesity </li>
+                <li>2019 Master Degree in Human Resources from "Babes-Bolyai" Univesity</li>
+                <li>2022 Taking Web Development Courses from the IT platform TeachBit.ro</li>
+              </ul>
+            </div>
+            </div>
+      </div>
+</section>
+             <!-- Services -->
+     <section>
+<div id="services">
+  <div class="container">
+    <h1 class="subtitle">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Ability to provide a customize website design that can be used for either a business or a personal site.</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-computer"></i>
+        <h2>Web Development</h2>
+        <p>Ability to create a website page.</p>
+      </div>
+      <div>
+<i class="fa-thin fa-mobile"></i>
+        <h2>Responsive Design</h2>
+        <p>Ability to create a design that is responsive on all types of devices.</p>
+      </div>
+    </div>
+  </div>
+</div>
+     </section> 
+     
+     
+  <!-- Portofolio -->
+  <div id="portofolio">
+    <div class="container">
+      <h1 class="subtitle">My work</h1>
+      <div class="work-list">
+         <div class="work">
+          <img src="images/3 column preview card component.webp" alt="3 column preview card">
+          <div class="layer">
+            <h3>Column Preview Card Component</h3>
+            <p>This is a completed challenge from frontendmentor.ro</p>
+            <a href="https://www.frontendmentor.io/solutions/3-column-preview-card-component--qYqapY95C"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+         </div>
+          <div class="work">
+            <img src="images/single price grid component master.webp" alt="single price grid component">
+            <div class="layer">
+              <h3>Single price grid component</h3>
+              <p>This is a completed challenge from frontendmentor.ro</p>
+              <a href="https://www.frontendmentor.io/solutions/single-price-grid-component-master-i0V9dSGHUI"><i
+                  class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/preview card component.webp" alt="preview card component">
+            <div class="layer">
+              <h3>Stats preview card component</h3>
+              <p>This is a completed challenge from frontendmentor.ro</p>
+              <a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-1yeDqzIkdh"><i
+                  class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>pop.alexandru97@yahoo.com</p>
+          <p><i class="fa-duotone fa-phone"></i>0746359210</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/pop.alexandru.716533"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/alexandru-pop-462959253/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        
+          <a href="images/Alexandru_Pop_-_Frontend_Developer.pdf" download class="btn btn-1">Download CV</a>
+          </div>
+          <div class="contact-right">
+<!-- <form>
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+  <button type="submit" class="btn btn-1">Submit</button>
+</form> -->
+</div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
