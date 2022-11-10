@@ -298,8 +298,7 @@ nav .fa-sharp .fa-solid, .fa-xmark
  nav .fa-sharp, .fa-solid, .fa-xmark
  .fas-solid, .fa-bars {
     display: none;
- }
-
+}
 @media (max-width:900px) {
 #header {
  background-size: auto;
@@ -348,7 +347,7 @@ nav ul li {
     display: block;
     margin: 25px;
 }
-nav ul .fa-sharp {
+nav ul .fa-sharp, .fa-xmark {
     position: absolute;
     top: 25px;
     left: 25px;
